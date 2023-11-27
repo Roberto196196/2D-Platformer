@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Trap
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Wall
+  - Spike
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Img
+    uniqueID: 2086867739
+    locked: 0
+  - name: Background 0
+    uniqueID: 151251355
+    locked: 0
+  - name: Background 1
+    uniqueID: 3760058883
+    locked: 0
+  - name: Background
+    uniqueID: 1713061983
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Platforms
+    uniqueID: 3229105511
+    locked: 0
+  - name: Spike
+    uniqueID: 3498117005
+    locked: 0
+  - name: Decoration
+    uniqueID: 2642648663
+    locked: 0
+  - name: Player
+    uniqueID: 3230462295
+    locked: 0
