@@ -8,10 +8,16 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private AudioSource deathSoundEffect;
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject tutorialScreen;
     
     // Start is called before the first frame update
     private void Awake()
     {
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            Time.timeScale = 0f;
+            tutorialScreen.SetActive(true);
+        }
         gameOverScreen.SetActive(false);
         pauseMenu.SetActive(false);
     }
@@ -36,6 +42,12 @@ public class UIManager : MonoBehaviour
     {
         gameOverScreen.SetActive(true);
         deathSoundEffect.Play();
+    }
+    
+    public void Tutorial()
+    {
+        Time.timeScale = 1f;
+        tutorialScreen.SetActive(false);
     }
 
     public void Restart()
